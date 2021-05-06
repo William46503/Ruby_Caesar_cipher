@@ -19,7 +19,7 @@ class Encryptor
           end
       end
 
-      #rejoin the whole new encryped array of char-codes
+      #rejoin the whole new encryped array of char-code
       encryptedString = encryptedCharCodes.map{|item| item.chr}.join("")
 
      p encryptedString
